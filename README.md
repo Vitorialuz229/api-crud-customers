@@ -78,6 +78,28 @@ Método: GET
 
 Endpoint: /customers
 
+Exemplo de Body:
+```json
+[
+	{
+		"id": "679f8e625f3ed13408a04093",
+		"name": "Paulo",
+		"email": "pavilego07@gmail.com",
+		"status": true,
+		"createdAt": "2025-02-02T15:25:21.990Z",
+		"updatedAt": "2025-02-02T15:25:21.990Z"
+	},
+	{
+		"id": "679f934187e13a78a83f2f40",
+		"name": "Ana",
+		"email": "Aninha07@gmail.com",
+		"status": true,
+		"createdAt": "2025-02-02T15:46:09.371Z",
+		"updatedAt": "2025-02-02T15:46:09.371Z"
+	}
+]
+```
+
 3. Deletar Cliente
 Método: DELETE
 
