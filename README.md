@@ -76,6 +76,7 @@ Exemplo de Body:
 ```
 
 2. Listar Todos os Clientes
+   
 Método: GET
 
 Endpoint: /customers
@@ -102,6 +103,7 @@ Exemplo de Body:
 ]
 ```
 3. Atualizar Cliente
+   
 Método: PUT
 
 Endpoint: /customer/{id}
@@ -116,11 +118,13 @@ Exemplo de Body:
 ```
 
 4. Deletar Cliente
+   
 Método: DELETE
 
 Endpoint: /customer?id={id}
 
 5. Buscar Cliente por id
+   
 Método: GET 
 
 Endpoint: /customer/{id}
