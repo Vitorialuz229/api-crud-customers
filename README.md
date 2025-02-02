@@ -1,6 +1,6 @@
 # API de CRUD de Clientes
 
-Esta é uma API RESTful construída com **Node.js**, **TypeScript** e **MongoDB** para realizar operações CRUD (Create, Read, Delete) em clientes (customer).
+Esta é uma API RESTful construída com **Node.js**, **TypeScript** e **MongoDB** para realizar operações CRUD (Create, Read, Update, Delete) em clientes (customer).
 
 ## 🚀 Tecnologias Utilizadas
 
