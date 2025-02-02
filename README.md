@@ -25,6 +25,8 @@ A API oferece as seguintes funcionalidades para gerenciamento de clientes:
 - **Criar Cliente**: Permite a criação de novos clientes no banco de dados.
 - **Listar Clientes**: Retorna todos os clientes cadastrados.
 - **Deletar Cliente**: Permite a exclusão de um cliente específico.
+- **Atualizar Cliente**: Permite atualizar os dados de um cliente existente.
+- **Buscar cliente por id**: Permite buscar cliente pelo id informado.
 
 ## 🛠️ Como Rodar
 
@@ -99,11 +101,29 @@ Exemplo de Body:
 	}
 ]
 ```
+3. Atualizar Cliente
+Método: PUT
 
-3. Deletar Cliente
+Endpoint: /customer/{id}
+
+Exemplo de Body:
+
+```json
+{
+  "name": "João Silva Atualizado",
+  "email": "joao.silva.novo@example.com"
+}
+```
+
+4. Deletar Cliente
 Método: DELETE
 
 Endpoint: /customer?id={id}
+
+5. Buscar Cliente por id
+Método: GET 
+
+Endpoint: /customer/{id}
 
 ## ⚡ Testes
 Não há testes automáticos implementados neste projeto. Caso deseje testar manualmente, você pode usar ferramentas como Postman ou Insomnia para enviar requisições HTTP.
