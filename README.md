@@ -24,8 +24,6 @@ A API oferece as seguintes funcionalidades para gerenciamento de clientes:
 
 - **Criar Cliente**: Permite a criação de novos clientes no banco de dados.
 - **Listar Clientes**: Retorna todos os clientes cadastrados.
-- **Buscar Cliente**: Retorna um cliente específico baseado no ID.
-- **Atualizar Cliente**: Permite a atualização dos dados de um cliente.
 - **Deletar Cliente**: Permite a exclusão de um cliente específico.
 
 ## 🛠️ Como Rodar
