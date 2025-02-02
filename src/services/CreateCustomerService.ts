@@ -19,4 +19,4 @@ class CreateCustomerService {
   }
 }
 
-export default CreateCustomerService;
+export { CreateCustomerService };
