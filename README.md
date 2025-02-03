@@ -28,6 +28,11 @@ A API oferece as seguintes funcionalidades para gerenciamento de clientes:
 - **Atualizar Cliente**: Permite atualizar os dados de um cliente existente.
 - **Buscar cliente por id**: Permite buscar cliente pelo id informado.
 
+## Frontend 
+Este projeto se comunica com um frontend desenvolvido em Reactjs. O código-fonte do frontend está disponível no seguinte repositório:
+
+🔗 Repositório do Frotend: [Link do repositório](https://github.com/Vitorialuz229/front-crud-customers)
+
 ## 🛠️ Como Rodar
 
 ### Pré-requisitos
